@@ -1,14 +1,36 @@
-# Binaries for programs and plugins
-*.exe
-*.dll
-*.so
-*.dylib
+#built application files
+*.apk
+*.ap_
 
-# Test binary, build with `go test -c`
-*.test
+# files for the dex VM
+*.dex
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# Java class files
+*.class
 
-# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
-.glide/
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# Android Studio
+*.iml
+.idea
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+.gradle
+build/
+.navigation
+captures/
+output.json 
+
+#NDK
+obj/
+.externalNativeBuild
